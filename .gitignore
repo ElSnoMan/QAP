@@ -1,3 +1,9 @@
+# Specific
+Tests/bin/Debug/netcoreapp2.0/CUnit.runtimeconfig.dev.json
+Tests/bin/Debug/netcoreapp2.0/CUnit.runtimeconfig.json
+
+*.deps.json
+
 # Prerequisites
 *.d
 
@@ -50,3 +56,52 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+*.cache
+
+*.tmp
+
+*.userprefs
+
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+bin/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio
+.vs/
+*.ide
+
+*.ide-shm
+
+*.ide-wal
+
+*.log
+.idea
