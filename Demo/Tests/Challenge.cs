@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium.Chrome;
 using Tests.Settings;
 
@@ -13,7 +14,9 @@ namespace Tests
         [TestInitialize]
         public void Setup()
         {
-            Driver = new ChromeDriver(Config.DRIVERPATH);
+            var options = new ChromeOptions();
+            options.AddArgument("--start-maximized");
+            Driver = new ChromeDriver(Config.DRIVERPATH, options);
         }
 
         [TestCleanup]
@@ -33,8 +36,6 @@ namespace Tests
             // 3. Sort by Tournaments
             // 4. Sort by Win Percentage
             // 5. Assert that win percentage is 91.05
-
-            Driver.Navigate().GoToUrl("https://statsroyale.com");
         }
     }
 }
