@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="Data\" />
+    <Folder Include="Constant\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ThreeMusketeers.cs" />
+  </ItemGroup>
+</Project>

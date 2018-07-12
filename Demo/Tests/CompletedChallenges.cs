@@ -7,7 +7,7 @@ using Tests.Settings;
 namespace Tests
 {
     [TestClass]
-    public class CompletedChallenge
+    public class CompletedChallenges
     {
         IWebDriver Driver;
 
