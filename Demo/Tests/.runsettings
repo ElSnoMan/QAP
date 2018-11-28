@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <RunConfiguration>
+    <!-- Path relative to solution directory -->
+    <ResultsDirectory>.\TestResults</ResultsDirectory>
+  </RunConfiguration>
+
+  <NUnit>
+  <!-- NUnit .runsettings documentation: https://github.com/nunit/docs/wiki/Tips-And-Tricks -->
+    <NumberOfTestWorkers>4</NumberOfTestWorkers>
+  </NUnit>
+
+  <!-- Parameters used by tests at runtime -->
+  <TestRunParameters>
+    <Parameter name="browser" value="firefox" />
+    <Parameter name="url" value="https://dev.to" />
+  </TestRunParameters>
+</RunSettings>
