@@ -1,1 +1,11 @@
-﻿
+﻿{
+  "driver": {
+    "browser": "chrome",
+    "path": "/drivers"
+  },
+
+  "test": {
+    "url": "https://dev.to",
+    "results": "/results"
+  }
+}
